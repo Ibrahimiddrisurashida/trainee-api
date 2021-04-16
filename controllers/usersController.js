@@ -1,6 +1,6 @@
 const User = require("../models/userSchema")
 const bcrypt = require("bcryptjs")
-const jwt = required("jsonwebtoken")
+const jwt = require("jsonwebtoken")
 const { validateAddUser } = require("../validations/userValidations")
 
 const addUser = async (req, res) => {
